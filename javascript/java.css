@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: brown;
+    
+}
+ul li{
+    float: right;
+    
+}
+ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+ul li a:hover{
+    background-color: chartreuse;
+
+}
+ul .active{
+    background-color: blue;
+}
+.imagefloat{
+    float: right;
+    margin: 0 20px 10px 20px;
+}
+.imagfloat{
+    float: left;
+    margin: 0 20px 10px 20px;
+}
+.ekaidiv{
+    width: 200px;
+    text-align: center;
+    float: right;
+    clear: right;
+}
+span{
+    float: left;
+    line-height: 50%;
+    font-size: 30px;
+    font-weight: 900;
+}
